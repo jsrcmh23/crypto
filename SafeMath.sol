@@ -13,6 +13,7 @@ pragma solidity ^0.4.24;
  * Using this library instead of the unchecked operations eliminates an entire
  * class of bugs, so it's recommended to use it always.
  */
+
 library SafeMath {
   /**
    * @dev Returns the addition of two unsigned integers, reverting on
@@ -21,7 +22,7 @@ library SafeMath {
    * Counterpart to Solidity's `+` operator.
    *
    * Requirements:
-   * - Addition cannot overflow.
+   * - Addition cannot overflo w.
    */
   function add(uint256 a, uint256 b) internal pure returns (uint256) {
     uint256 c = a + b;
